@@ -1,0 +1,20 @@
+td {
+    width: 150px;
+    height: 150px;
+    /*border-width: 10px;*/
+    border: solid black 5px;
+    font-size: 80px;
+    text-align: center;
+}
+
+#tab {
+    align: center;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+table {
+    margin: auto;
+}

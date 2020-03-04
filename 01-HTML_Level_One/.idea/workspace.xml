@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="12f932c1-ad09-4386-a26b-dbbe46a869ce" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1XboPBG8HIMB2OM5gqN3tufk5AH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DB\Kurs Django\DJANGO_COURSE_2.xx\01-HTML_Level_One" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="12f932c1-ad09-4386-a26b-dbbe46a869ce" name="Default Changelist" comment="" />
+      <created>1581324129269</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581324129269</updated>
+      <workItem from="1581324148900" duration="7258000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581327352468">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2560.0.2560.1400/-1019.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1581327352468" />
+    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1581331563793">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1060" y="455" key="FileChooserDialogImpl/-2560.0.2560.1400/-1019.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1581331563793" />
+    <state x="781" y="342" key="SettingsEditor" timestamp="1581325623852">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="781" y="342" key="SettingsEditor/-2560.0.2560.1400/-1019.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1581325623852" />
+    <state x="981" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1581324150613">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="981" y="524" key="com.intellij.ide.util.TipDialog/-2560.0.2560.1400/-1019.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1581324150613" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1581330938125">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/-2560.0.2560.1400/-1019.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1581330938125" />
+  </component>
+</project>

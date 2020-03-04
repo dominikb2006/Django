@@ -1,0 +1,49 @@
+/*
+This is a comment
+*/
+
+/*
+General Form is:
+
+Selected Tag {
+  property: value;
+}
+
+*/
+
+/*Colors can be names, or codes*/
+body{
+    background-color: url(https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1);
+    background-repeat: no-repeat;
+
+
+
+}
+
+.firstDiv{
+    color: red;
+}
+.secondDiv {
+    color: blue;
+}
+
+#singledout{
+    color: green;
+    text-decoration: line-through;
+
+}
+*{
+    color:black;
+}
+
+h3 + ul{
+    border: 5px dotted purple;
+}
+li a{
+    color: red;
+}
+
+li a[href="www.npr.org"]{
+    color: blue;
+    border: 5px solid orange;
+}
