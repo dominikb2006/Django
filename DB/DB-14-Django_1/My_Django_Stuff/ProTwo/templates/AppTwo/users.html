@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>USER LIST</title>
+    <link rel="stylesheet" href="{% static "css/mystyle.css" %}">
+</head>
+<body>
+<h1>USERS LIST!</h1>
+{{ users_insert }}
+<div class="django1">
+{#        NIE DZIALA WARUNEK PONIZEJ -- CZEMU? NIE BIERZE W OGOLE users_list_insert #}
+    {% if users_list_insert %}
+        <table>
+            <thead>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            </thead>
+            {% for usr in users_list_insert %}
+                <tr>
+                    <td>{{ usr }}</td>
+                    <td>{{ usr.FirstName }}</td>
+                    <td>{{ usr.LastName }}</td>
+                    <td>{{ usr.Email }}</td>
+                </tr>
+            {% endfor %}
+
+        </table>
+    {% else %}
+        <p> THERE IS NOT USERS LIST! YOU ARE TOO LAZY HACKER</p>
+    {% endif %}
+</div>
+</body>
+</html>

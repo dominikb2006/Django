@@ -1,0 +1,7 @@
+h1 {
+    color: #00ff88;
+}
+
+table, th, td {
+    border: solid 2px black;
+}

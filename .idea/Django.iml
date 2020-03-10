@@ -5,7 +5,7 @@
       <configuration>
         <option name="rootFolder" value="$USER_HOME$/Anaconda3/Scripts" />
         <option name="settingsModule" value=".qt-post-link.bat" />
-        <option name="manageScript" value="" />
+        <option name="manageScript" value="$MODULE_DIR$/DB/DB-14-Django_1/My_Django_Stuff/first_project/manage.py" />
         <option name="environment" value="&lt;map/&gt;" />
         <option name="doNotUseTestRunner" value="false" />
         <option name="trackFilePattern" value="" />
@@ -13,7 +13,29 @@
     </facet>
   </component>
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/01-HTML_Level_One" />
+      <excludeFolder url="file://$MODULE_DIR$/02-HTML_Level_Two" />
+      <excludeFolder url="file://$MODULE_DIR$/03-CSS_Level_One" />
+      <excludeFolder url="file://$MODULE_DIR$/04-CSS_Level_Two" />
+      <excludeFolder url="file://$MODULE_DIR$/05-Capstone_Project_One" />
+      <excludeFolder url="file://$MODULE_DIR$/06-Bootstrap" />
+      <excludeFolder url="file://$MODULE_DIR$/07-JavaScript_Level_One" />
+      <excludeFolder url="file://$MODULE_DIR$/08-Javascript_Level_Two" />
+      <excludeFolder url="file://$MODULE_DIR$/09-Document_Object_Model" />
+      <excludeFolder url="file://$MODULE_DIR$/10-jQuery" />
+      <excludeFolder url="file://$MODULE_DIR$/11-Command_Line_Crash_Course" />
+      <excludeFolder url="file://$MODULE_DIR$/12-Python_Level_One" />
+      <excludeFolder url="file://$MODULE_DIR$/13-Python_Level_Two" />
+      <excludeFolder url="file://$MODULE_DIR$/14-Django_Level_One" />
+      <excludeFolder url="file://$MODULE_DIR$/15-Django_Level_Two" />
+      <excludeFolder url="file://$MODULE_DIR$/16-Django_Level_Three" />
+      <excludeFolder url="file://$MODULE_DIR$/17-Django_Level_Four" />
+      <excludeFolder url="file://$MODULE_DIR$/18-Django_Level_Five" />
+      <excludeFolder url="file://$MODULE_DIR$/19-Advanced_Django_CBV" />
+      <excludeFolder url="file://$MODULE_DIR$/20-Blog_Clone_Project" />
+      <excludeFolder url="file://$MODULE_DIR$/21-Social_Clone_Project" />
+    </content>
     <orderEntry type="jdk" jdkName="Python 3.7 (Django)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
@@ -23,11 +45,6 @@
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
-    <option name="TEMPLATE_FOLDERS">
-      <list>
-        <option value="$MODULE_DIR$/14-Django_Level_One/ProTwo/appTwo/templates" />
-      </list>
-    </option>
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="pytest" />

@@ -1,3 +1,12 @@
-h1{
-    color: red;
+h1 {
+    color: blue;
+}
+
+.djangotwo {
+    border: 2px solid black;
+    font: bold 1px;
+}
+
+table, th, td {
+    border: 2px solid black;
 }
