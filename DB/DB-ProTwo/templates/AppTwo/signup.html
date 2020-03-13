@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ZAREJESTRUJ SIE</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron">
+        <h1>ZAREJESTRUJ SIE NA NASZEJ SUPER STRONIE</h1>
+        <form method="POST">
+            {{ signup_form.as_p }}
+{#            {{ signup_form }}#}
+            {% csrf_token %}
+            <input type="submit" class="btn btn-primary" value="Submit">
+
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

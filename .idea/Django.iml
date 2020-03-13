@@ -36,7 +36,7 @@
       <excludeFolder url="file://$MODULE_DIR$/20-Blog_Clone_Project" />
       <excludeFolder url="file://$MODULE_DIR$/21-Social_Clone_Project" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.7 (Django)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">
