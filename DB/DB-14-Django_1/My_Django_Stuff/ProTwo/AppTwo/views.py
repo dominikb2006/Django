@@ -1,6 +1,6 @@
-from django.shortcuts import render
-from django.http import HttpResponse
 from AppTwo.models import User
+from django.http import HttpResponse
+from django.shortcuts import render
 
 
 def index(request):
@@ -15,11 +15,7 @@ def help(request):
 
 
 def users(request):
-    users_dict = {'users_insert': "THERE IS A LIST! LIST I SAID!"}
-    return render(request, 'AppTwo/users.html', context=users_dict)
-
-
-def userslist(request):
     webpages_list = User.objects.order_by("FirstName")
-    list_dict = {"users_list_insert": webpages_list}
-    return render(request, 'AppTwo/users.html', context=list_dict)
+    users_dict = {"users_list_insert": webpages_list,
+                 'users_insert': "THERE IS A LIST! LIST I SAID!"}
+    return render(request, 'AppTwo/users.html', context=users_dict)
