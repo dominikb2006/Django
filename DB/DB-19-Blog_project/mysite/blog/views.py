@@ -1,5 +1,5 @@
 from blog.forms import PostForm, CommentForm
-from blog.model import Post, Comment
+from blog.models import Post, Comment
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import render, get_object_or_404, redirect
@@ -57,10 +57,11 @@ class DraftListView(LoginRequiredMixin, ListView):
 ########################################################################
 
 @login_required
-def post_publish(request,pk):
-    post=get_object_or_404(Post,pk=pk)
+def post_publish(request, pk):
+    post = get_object_or_404(Post, pk=pk)
     post.publish()
-    return redirect('post_detail',pk=pk)
+    return redirect('post_detail', pk=pk)
+
 
 @login_required
 def add_comment_to_post(request, pk):
